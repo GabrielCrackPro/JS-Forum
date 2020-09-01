@@ -1,0 +1,27 @@
+{
+  "name": "js-forum",
+  "version": "1.0.0",
+  "description": "This is vanilla JS Forum",
+  "main": "index.js",
+  "scripts": {
+    "start": "node /server/index.js",
+    "dev": "nodemon /server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GabrielCrackPro/JS-Forum.git"
+  },
+  "author": "GabrielCrackPro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielCrackPro/JS-Forum/issues"
+  },
+  "homepage": "https://github.com/GabrielCrackPro/JS-Forum#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "monk": "^7.3.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  }
+}
