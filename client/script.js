@@ -56,3 +56,40 @@ logForm.addEventListener('submit', (event)=>{
     }
     event.preventDefault()
 })
+
+//User posts interactions
+const shareBtn = document.querySelector('#post-share-btn')
+const likeBtn = document.querySelector('#post-like-btn')
+const commentBtn = document.querySelector('#post-comment-btn')
+
+const likesCount = document.querySelector('#likes-count')
+const commentsCount = document.querySelector('#comments-count')
+const postDate = document.querySelector('#post-date')
+
+likeBtn.addEventListener('click', ()=>{
+    if(likesCount.textContent == '0'){
+        likesCount.textContent = 1
+    }else{
+        likesCount.textContent ++
+    }
+})
+commentBtn.addEventListener('click', ()=>{
+    if(commentsCount.textContent == '0'){
+        commentsCount.textContent = 1
+    }else{
+        commentsCount.textContent ++
+    }
+})
+//Set post date
+
+let dateDay = new Date().getDay()
+let dateMounth = new Date().getMonth()
+let dateYear = new Date().getFullYear()
+
+if(dateDay < 10 || dateMounth < 10){
+    dateDay = '0' + dateDay
+    dateMounth = '0' + dateMounth
+}
+const actualDate = dateDay + '/' + dateMounth + '/' + dateYear
+
+postDate.textContent = actualDate

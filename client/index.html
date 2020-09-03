@@ -9,6 +9,13 @@
       href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
+    <!--FONT AWSOME-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
     <title>Forum 💬💬| Home</title>
   </head>
   <body>
@@ -17,7 +24,7 @@
         <li><a href="#">JS Vanilla Forum | </a></li>
         <li><a href="#">Sign Up</a></li>
         <li><a href="#">Sign in</a></li>
-        <li><a href="#">Chat without an account</a></li>
+        <li><a href="#">Be anonymous</a></li>
       </ul>
     </nav>
     <form id="login-form" action="/login">
@@ -72,6 +79,33 @@
       <br />
       <button type="submit">Join</button>
     </form>
+    <div class="divisor"></div>
+    <div class="trending-posts">
+      <div class="trending-1">
+        <h4>Lorem ipsum dolor sit</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, aperiam?
+        </p>
+        <div class="posts-buttons">
+          <button id="post-share-btn"><i class="fas fa-share-alt"></i></button>
+          <button id="post-like-btn"><i class="fas fa-heart"></i></button
+          ><small id="likes-count">0</small>
+          <button id="post-comment-btn">
+            <i class="fas fa-comment-dots"></i></button
+          ><small id="comments-count">0</small>
+          <i class="fas fa-calendar-alt"></i> <small id="post-date">Date</small>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        Forum created by
+        <a href="http://www.github.com/GabrielCrackPro" target="blank"
+          >GabrielCrackPro</a
+        >
+        &copy 2020
+      </p>
+    </footer>
     <script src="/client/script.js"></script>
   </body>
 </html>
