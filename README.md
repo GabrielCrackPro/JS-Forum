@@ -18,11 +18,12 @@ This a vanilla JS Forum 💬
 - [x] Send form data to server
 
 ## BACK-END
-- [x] Recive form data from the front end
+- [x] Recive register / login data from the front end
 - [x] Store new users credentials
 
 ## TO-DO
 - Put freatured themes in the home page
+- Create a profile page
 - Let users interact with others
 - Process new posts (store in a DB)
 - Deploy (no date specifed)
