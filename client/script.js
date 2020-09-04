@@ -93,3 +93,6 @@ if(dateDay < 10 || dateMounth < 10){
 const actualDate = dateDay + '/' + dateMounth + '/' + dateYear
 
 postDate.textContent = actualDate
+
+//User menu
+console.log('hello')

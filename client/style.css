@@ -119,3 +119,51 @@ footer a:hover{
     transition: all .3s ease;
     font-weight: bold;
 }
+/*Home page*/
+#user-button{
+    margin-left: 1120px;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+#user-button i{
+    color: #fff;
+}
+.user-menu{
+    position: absolute;
+    left: 90%;
+    top: 45px;
+    background: #85CB33;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 150px;
+}
+.user-menu a{
+    color: #fff;
+    margin-left: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.user-menu a:hover{
+    color: #0A122A;
+    text-decoration: underline;
+    transition: all .3s ease;
+}
+.user-buttons button{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 25px;
+}
+.user-buttons button i{
+    color: #fff;
+}
+.user-buttons button:hover i{
+    color: #0A122A;
+    transition: all .3s ease;
+}
+.hide-user-menu{
+    display: none;
+}
