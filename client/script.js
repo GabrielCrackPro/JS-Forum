@@ -95,4 +95,7 @@ const actualDate = dateDay + '/' + dateMounth + '/' + dateYear
 postDate.textContent = actualDate
 
 //User menu
-console.log('hello')
+const userBtn = document.querySelector('#user-button')
+userBtn.addEventListener('click', ()=>{
+    console.log('clicked')
+})
